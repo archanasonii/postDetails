@@ -1,0 +1,52 @@
+/* .navbar-brand{
+    padding-left: 10px;
+}
+.container-fluid{
+
+    background-color: rgb(255, 255, 255);
+
+} */
+
+.container{
+
+    background-color: white;
+    border-radius: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+section{
+    background-color: rgb(117, 140, 245);
+    height: 100vh;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+
+    
+}
+
+/* .formRight, .formLeft{
+    background-color: rgb(236, 236, 236);
+    border-radius: 40px;
+} */
+
+
+@media (min-width: 576px) and (max-width: 1081px){
+
+    section{
+        background-color: rgb(117, 140, 245);
+        height: 1000px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+        
+    }
+}
+
+@media (min-width: 789px) and (max-width: 1081px){
+
+.container{
+    border: 2px solid black;
+    margin-top: 170px;
+}
+}
